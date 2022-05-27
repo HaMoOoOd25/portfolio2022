@@ -1,11 +1,11 @@
 <template>
   <div class="relative">
     <!-- SideBar -->
-    <div class=" w-2/6 md:w-1/4 bg-purple-400 fixed text-center h-screen">
+    <div class=" w-2/6 md:w-1/4 bg-red-900 fixed text-center h-screen">
       <div class="vcenter">
         <div class="rounded-full w-20 h-20 md:w-24 md:h-24 left-0 right-0 mx-auto overflow-hidden relative">
           <img
-          class="absolute -top-1/2"
+          class="absolute"
           src="/profile.jpg"
           alt=""
         />
@@ -13,6 +13,7 @@
         <ul class="mt-3 text-lg md:text-xl text-white">
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#positions">Positions</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
         </ul>
@@ -41,18 +42,10 @@
       <section id="education" class="h-screen relative">
         <div class="vcenter w-full">
           <ul>
-            <li>
-              <h2 class="text-2xl">Al Furqan Highschool</h2>
-              <p class="text-xl opacity-60">2019 - 2020</p>
-            </li>
+            <h1 class="text-3xl">Education</h1
             <li>
               <h2 class="text-2xl">Memorial University of Newfoundland</h2>
               <p class="text-xl opacity-60"> Computer Science </p>
-              <p class="text-xl opacity-60">2021 - present</p>
-            </li>
-            <li>
-              <h2 class="text-2xl">DApp University Bootcamp</h2>
-              <p class="text-xl opacity-60"> Blockchain Development </p>
               <p class="text-xl opacity-60">2021 - present</p>
             </li>
           </ul>
@@ -76,9 +69,33 @@
               <h2 class="text-2xl">Database</h2>
               <p class="text-xl opacity-60">MongoDb - MySQL</p>
             </li>
+          </ul>
+          <a href="#positions" class="float-right text-purple-400">Next</a>
+        </div>
+      </section>
+
+      <section id="positions" class="h-screen relative">
+        <div class="vcenter w-full">
+          <ul>
             <li>
-              <h2 class="text-2xl">Blockchain Development</h2>
-              <p class="text-xl opacity-60">Truffle - Metamask - EthersJs - Solditiy</p>
+              <h2 class="text-2xl">Coremenus (CoreGameDev)</h2>
+              <p class="text-xl opacity-60"> Fullstack Developer / Co-Founder </p>
+              <p class="text-xl opacity-60">2020 - present</p>
+              <a href="https://dashboard.coremenus.com"><i class="fas fa-lg fa-globe p-1"></i></a>
+            </li>
+            <li>
+              <h2 class="text-2xl">MUN COMPUTER SCIENCE SOCIETY</h2>
+              <p class="text-xl opacity-60"> Event Coordinator</p>
+              <p class="text-xl opacity-60">2021 - present</p>
+              <a href="https://muncompsci.ca/"><i class="fas fa-lg fa-globe p-1"></i></a>
+
+            </li>
+            <li>
+              <h2 class="text-2xl">DIAG LAB</h2>
+              <p class="text-xl opacity-60"> Full Stack Developer</p>
+              <p class="text-xl opacity-60">2022 - present</p>
+              <a href="https://www.cs.mun.ca/~kpopuri/"><i class="fas fa-lg fa-globe p-1"></i></a>
+
             </li>
           </ul>
           <a href="#portfolio" class="float-right text-purple-400">Next</a>
