@@ -116,7 +116,7 @@
               <p class="text-xl opacity-60">{{ project.tags }}</p>
               <img class=" w-11/12 right-0 left-0 mx-auto rounded-md p-1" :src="project.image" alt="">
               <p class=" text-lg opacity-60 mt-3">{{ project.description }}</p>
-              <p class="text-lg opacity-60 mt-3">You can visit project source code or website <a class=" font-bold text-purple-400" :href="project.link">here</a></p>
+              <p v-if="project.link" class="text-lg opacity-60 mt-3">You can visit project source code or website <a class=" font-bold text-purple-400" :href="project.link">here</a></p>
             </li>
           </ul>
         </div>
@@ -134,7 +134,7 @@ export default {
         {
           title: 'CoreMenus',
           tags: 'Fullstack Development',
-          description: 'Coremenus is a digital menu platform for restaraunts in Qatar. I developed this website for CoreGameDev company located in Qatar. This website has a dashboard for restaraunt managers to adjust their menu to their liking.',
+          description: 'Coremenus is a SaaS platform I am currently working on. It is a fully featured restaraunt digital menu manager. It allow restaraunts to accept orders from tables and cars using a QR Code link.',
           link: 'https://dashboard.coremenus.com',
           image: '/coremenus.png'
         },
@@ -144,6 +144,12 @@ export default {
           description: 'This is one of my first blockchain projects. I created an ERC20 standard token with solidiy smart contract using truffle. I deployed the smart contract to a local blockchain network. I built another smart contract to be able to trade hamood token with ETH. I also made a website that interacts with the blockchain to swap ETH with my Token.',
           link: 'https://github.com/HaMoOoOd25/hmdTokenSite',
           image: '/hamoodtoken.png'
+        },
+        {
+            title: 'IRATUS',
+            tags: 'Full Stack Development',
+            description: '',
+            link: '/iratus.png'
         }
       ]
     }
