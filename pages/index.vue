@@ -27,7 +27,7 @@
           <h1 class="text-3xl">Mohammed Balfaqih</h1>
           <p class="text-xl opacity-60">Fullstack Developer</p>
           <p>
-            Hello, I am a 19 years old self-taught developer. I am currently studying computer science at Memorial University. I adore programming and love to keep up to date with the latest technology. I started as a full-stack developer and now aiming to be a professional blockchain developer. 
+            Hello, I am a 20 years old self-taught developer. I am currently studying computer science at Memorial University. I adore programming and love to keep up to date with the latest technology. I started as a full-stack developer and now aiming to be a professional blockchain developer. 
           </p>
           <div class="mt-2">
             <a href="https://github.com/HaMoOoOd25/"><i class="fab fa-lg fa-github p-1"></i></a>
