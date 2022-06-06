@@ -95,7 +95,12 @@
               <p class="text-xl opacity-60"> Full Stack Developer</p>
               <p class="text-xl opacity-60">2022 - present</p>
               <a href="https://www.cs.mun.ca/~kpopuri/"><i class="fas fa-lg fa-globe p-1"></i></a>
-
+            </li>
+            <li>
+              <h2 class="text-2xl">Hackfrost NL (New Hire)</h2>
+              <p class="text-xl opacity-60"> Operation Team Member</p>
+              <p class="text-xl opacity-60">2022 - present</p>
+              <a href="https://hackfrostnl.ca/"><i class="fas fa-lg fa-globe p-1"></i></a>
             </li>
           </ul>
           <a href="#portfolio" class="float-right text-purple-400">Next</a>
