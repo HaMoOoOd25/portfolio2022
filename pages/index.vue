@@ -28,11 +28,9 @@
           <h1 class="text-3xl">Mohammed Balfaqih</h1>
           <p class="text-xl opacity-60">Fullstack Developer</p>
           <p>
-            Hello, I am a 20 years old self-taught developer. I am currently
+            Hello, I am a 20 years old self-taught fullstack developer. I am currently
             studying computer science at Memorial University. I adore
-            programming and love to keep up to date with the latest technology.
-            I started as a full-stack developer and now aiming to be a
-            professional blockchain developer.
+            programming and love to keep up to date with the latest technology. My goal is to help advancing health care with computers.
           </p>
           <div class="mt-2">
             <a href="https://github.com/HaMoOoOd25/"
@@ -72,17 +70,17 @@
           <ul>
             <li>
               <h2 class="text-2xl">Backend Development</h2>
-              <p class="text-xl opacity-60">NodeJs - Fast API - GraphQl</p>
+              <p class="text-xl opacity-60">NodeJs - Fast API - Django - Flask - GraphQl</p>
             </li>
             <li>
               <h2 class="text-2xl">Frontend Development</h2>
               <p class="text-xl opacity-60">
-                VueJs - NuxtJs - Vuex - TailwindCss
+                VueJs - NuxtJs - Vuex - React - NextJs - TailwindCss
               </p>
             </li>
             <li>
               <h2 class="text-2xl">Database</h2>
-              <p class="text-xl opacity-60">MongoDb - MySQL</p>
+              <p class="text-xl opacity-60">MongoDb - MySQL - SQLite</p>
             </li>
           </ul>
           <a href="#positions" class="float-right text-red-900">Next</a>
@@ -110,14 +108,14 @@
             </li>
             <li>
               <h2 class="text-2xl">DIAG LAB</h2>
-              <p class="text-xl opacity-60">Full Stack Developer</p>
+              <p class="text-xl opacity-60">Data Quality Assurance Analyst</p>
               <p class="text-xl opacity-60">2022 - present</p>
               <a href="https://www.cs.mun.ca/~kpopuri/"
                 ><i class="fas fa-lg fa-globe p-1"></i
               ></a>
             </li>
             <li>
-              <h2 class="text-2xl">Hackfrost NL (New Hire)</h2>
+              <h2 class="text-2xl">Hackfrost NL</h2>
               <p class="text-xl opacity-60">Operation Team Member</p>
               <p class="text-xl opacity-60">2022 - present</p>
               <a href="https://hackfrostnl.ca/"
@@ -138,12 +136,12 @@
               <p class="text-xl opacity-60">{{ project.tags }}</p>
               <div class="p-2 flex flex-row overflow-x-scroll">
                 <img
-                v-for="image, i in project.images" :key="i"
-                  class="portfolio-image mx-2 right-0 left-0  rounded-xl border-4 border-red-900"
+                  v-for="(image, i) in project.images"
+                  :key="i"
+                  class="portfolio-image mx-2 right-0 left-0 rounded-xl border-4 border-red-900"
                   :src="image"
                   alt=""
                 />
-
               </div>
               <p class="text-lg opacity-60 mt-3">{{ project.description }}</p>
               <p v-if="project.link" class="text-lg opacity-60 mt-3">
@@ -179,7 +177,23 @@ export default {
           description:
             "Coremenus is a SaaS platform I am currently working on. It is a fully featured restaraunt digital menu manager. It allow restaraunts to accept orders from tables and cars using a QR Code link.",
           link: "https://dashboard.coremenus.com",
-          images: ["/coremenus/coremenus.png", "/coremenus/coremenus2.png", '/coremenus/coremenus3.png', '/coremenus/coremenus4.png', '/coremenus/coremenus5.png'],
+          images: [
+            "/coremenus/coremenus.png",
+            "/coremenus/coremenus2.png",
+            "/coremenus/coremenus3.png",
+            "/coremenus/coremenus4.png",
+            "/coremenus/coremenus5.png",
+          ],
+        },
+        {
+            title: "Surgeon Journal",
+            tage: "Frontend Development",
+            description: "One of the things I saw surgeons do is document every surgery. They keep track of patient name, age, and diagnosis. I have seen that some of them keeps it in an excel sheet, and sometime it's difficult to manage without good knowledge of excel. So I made this Web App with VueJs/NuxtJs to make it easier to keep track of their surgeries. It also shows some analytics to help them get a good insight. It's also mobile first application, so they can access it from any device they have anywhere."
+        },
+        {
+            title: "School Pickup",
+            tage: "Frontend - Backend - Database - Web Sockets - Ardiuno",
+            description: "I used to pickup my siblings from school everyday during covid. The teachers used Whatsapp group to communicate about which kid should leave. The got hectic when it's crowded outside as there are too many messages to keep up with, and a lot of the times I would need to notify the teachers multiple times. I build this system where every parent or driver would have an NFC tag with their kids data saved. I built an ardiuno system where it will get the kids data and notify each classroom of the kids in the NFC tag"
         },
         {
           title: "Hamood ERC20 Token",
@@ -194,7 +208,7 @@ export default {
           tags: "Full Stack Development",
           description: "",
           images: ["/iratus.png"],
-        },
+        }
       ],
     };
   },
@@ -215,7 +229,7 @@ li {
 }
 
 .portfolio-image {
-    width: 550px;
+  width: 550px;
 }
 
 html {
