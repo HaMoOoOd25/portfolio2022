@@ -20,7 +20,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [{src: 'https://kit.fontawesome.com/37ee5de61f.js', crossorigin: 'anonymous'}]
+    script: [{src:'https://kit.fontawesome.com/aeb6e7a7c3.js', crossorigin: 'anonymous'}]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
