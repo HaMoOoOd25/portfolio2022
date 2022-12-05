@@ -4,8 +4,8 @@
       <h1 class="text-3xl">Mohammed Balfaqih</h1>
       <p class="text-xl opacity-60">Fullstack Developer</p>
       <p>
-        Hi there! I like VueJs, and React as well. I wanted to go for medicine,
-        but went for computer science. Therefore, I want to help advance health
+        Hi there! I like VueJs, and React as well. I am interested in medicine,
+        and computer science. Therefore, I want to help advance health
         care with computers.
       </p>
       <div class="mt-2 text-red-900">
