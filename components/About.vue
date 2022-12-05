@@ -4,7 +4,7 @@
       <h1 class="text-3xl">Mohammed Balfaqih</h1>
       <p class="text-xl opacity-60">Fullstack Developer</p>
       <p>
-        Hi there! I like VueJs, and React as well. I am interested in medicine,
+        Hi there! I like VueJs, and React as well. I am interested in medicine
         and computer science. Therefore, I want to help advance health
         care with computers.
       </p>
