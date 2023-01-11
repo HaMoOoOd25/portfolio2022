@@ -31,6 +31,15 @@ export default {
     data() {
         return {
             projects: [
+            {
+                    title: "MUN Dining Hall App",
+                    tags: "Mobile App Development",
+                    description: "A mobile app to view MUN dining hall today's menu. There are additional features that includes adding a dish to your favorites so you get notified when that dish is served again.",
+                    link: "https://github.com/Curtis-Idiots/MunCampusDish-App",
+                    images: [
+                        "/dhall.png",
+                    ],
+                },
                 {
                     title: "CoreMenus",
                     tags: "Fullstack Development",
